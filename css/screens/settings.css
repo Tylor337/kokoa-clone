@@ -1,6 +1,9 @@
 .settings-list {
   padding: 0px var(--horizontal-space);
 }
+.settings-list:last-child {
+  padding-bottom: 45px;
+}
 .settings__setting {
   font-size: 20px;
   padding: 20px 0px;
