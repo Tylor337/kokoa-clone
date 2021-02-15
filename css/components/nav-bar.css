@@ -27,7 +27,7 @@
     transform: none;
   }
 }
-.badge {
+.nav__badge {
   animation: notificationAnimation 3s ease-in-out infinite;
 }
 .nav__notification {

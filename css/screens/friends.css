@@ -48,3 +48,15 @@
   animation: HiddenSplashScreen 0.3s forwards ease-in-out;
   animation-delay: 1s;
 }
+
+@keyframes SpinIcon {
+  form {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+#splash-screen i {
+  animation: SpinIcon 1s linear forwards;
+}

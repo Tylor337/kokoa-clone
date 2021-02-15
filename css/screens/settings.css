@@ -1,3 +1,6 @@
+.settings-list {
+  padding: 0px var(--horizontal-space);
+}
 .settings__setting {
   font-size: 20px;
   padding: 20px 0px;
@@ -6,6 +9,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.settings__setting:last-child {
+  margin-bottom: 25px;
+  border: none;
+}
 .settings__setting i {
   color: var(--gray);
   font-size: 22px;
@@ -13,4 +20,28 @@
 }
 .settings__setting-column:last-child {
   color: var(--light-gray);
+}
+.settings-line {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.1px 0px;
+  margin-bottom: 25px;
+}
+.settings__setting-column {
+  display: flex;
+}
+.settings__setting-column span {
+  margin-right: 10px;
+}
+.settings__setting-column div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50%;
+  color: white;
+  background-color: tomato;
 }

@@ -9,7 +9,7 @@
 .user-component__avatar {
   height: 70px;
   width: 70px;
-  border-radius: 30px;
+  border-radius: 50%;
   margin-right: 20px;
 }
 .user-component__title {
@@ -28,7 +28,7 @@
 .user-component__avatar--sm {
   height: 60px;
   width: 60px;
-  border-radius: 25px;
+  border-radius: 50%;
 }
 .user-component__title--not-bold {
   font-weight: 400;
@@ -48,4 +48,13 @@
   padding-bottom: 15px;
   border-bottom: var(--border-line);
   margin-bottom: 15px;
+}
+.user-component__more-icon {
+  display: flex;
+  align-items: center;
+}
+.fa-exclamation-circle {
+  margin-top: 8px;
+  margin-left: 8px;
+  color: tomato;
 }

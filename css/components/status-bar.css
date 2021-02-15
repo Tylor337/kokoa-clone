@@ -27,3 +27,10 @@
 .status-bar__column .fa-battery-full {
   margin: 0 5px;
 }
+
+.fa-battery-full {
+  color: #05d05d;
+}
+.fa-bolt {
+  color: #f3d002;
+}

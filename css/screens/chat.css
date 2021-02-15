@@ -88,6 +88,7 @@
   justify-content: flex-end;
   animation: FadeInright 1s linear;
 }
+
 .message-row--own .message__buble {
   background-color: var(--yellow);
   border-top-right-radius: 0px;

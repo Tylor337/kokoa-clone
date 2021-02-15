@@ -1,4 +1,5 @@
-.badge {
+.badge,
+.nav__badge {
   display: flex;
   justify-content: center;
   align-items: center;
