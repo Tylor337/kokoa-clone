@@ -1,7 +1,6 @@
 #no-mobile {
   width: 100vw;
   height: 100vh;
-  background-color: var(--yellow);
   font-size: 35px;
   position: absolute;
   top: 0;
@@ -11,9 +10,19 @@
   align-items: center;
   z-index: 99;
 }
-
+#no-mobile img {
+  width: 100vw;
+  height: 100vh;
+}
 #no-mobile span {
-  margin: 10px;
+  position: absolute;
+  display: block;
+  color: white;
+  background-color: var(--gray);
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 50px;
 }
 
 @media screen and (max-width: 600px) {
