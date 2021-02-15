@@ -1,3 +1,7 @@
+#scroll {
+  height: 110vh;
+}
+
 .recommended-friends {
   border-top: var(--border-line);
   margin: 25px 0px;
