@@ -16,7 +16,6 @@
 }
 #no-mobile span {
   position: absolute;
-  bottom: 150px;
   display: block;
   color: white;
   background-color: var(--gray);
